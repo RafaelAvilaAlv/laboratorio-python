@@ -11,6 +11,7 @@ Se generan resúmenes por cliente y se guarda el resultado en `outputs/`.
 
 > Recomendado: usar un entorno virtual
 
+
 ### Windows (PowerShell)
 ```powershell
 python -m venv .venv
