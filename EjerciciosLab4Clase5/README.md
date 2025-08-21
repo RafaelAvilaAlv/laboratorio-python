@@ -150,3 +150,12 @@ pytest -q
 
 
 Resultado esperado: todos los tests en verde.
+
+
+
+práctica en Python dividida en dos partes:
+(A) crear un módulo simple y cubrirlo con tests de pytest (incluye funciones para normalizar texto,
+calcular porcentaje de cambio y parsear fechas, con casos válidos, límites y errores esperados); y
+(B) validar un CSV con la librería estándar csv (sin pandas), comprobando columnas obligatorias y
+reglas como id único/no vacío y valor numérico no negativo. Se ejecuta en un venv, instala dependencias con requirements.txt,
+corre tests con pytest -q, y está organizada en lab5/, data/ y tests/, con manejo de UTF-8-SIG para CSVs con BOM. 
