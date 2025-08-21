@@ -102,5 +102,7 @@ Verifica
 Get-Content README.md -TotalCount 20
 
 
-Con eso cubres los 2 puntos que te marcaban “Falta”. ¿Quieres que te dé también los comandos para hacer un ZIP de entrega o un commit/push a GitHub?
-::contentReference[oaicite:0]{index=0}
+Es un mini-ejercicio de análisis de ventas a partir de un CSV con columnas cliente, categoria, monto,
+precio y fecha. Se leen y validan los datos (head, info y nulos), y se calcula un resumen por cliente con el total vendido,
+el número de compras y el promedio del monto, primero con Pandas y luego con DuckDB/SQL para comparar enfoques;
+los resultados se exportan a outputs/ (CSV/Parquet). El dataset tiene 10 registros de las categorías A y B en mayo, con clientes como C001–C006.
